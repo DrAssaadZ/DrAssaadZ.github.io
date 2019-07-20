@@ -53,7 +53,7 @@
         </div>
     </header>
 
-    <section id="about">
+    <section id="about" class="about">
         <div class="container">
             <div class="profile-img">
                 <img src="images/profile.jpeg" alt="">
@@ -72,25 +72,25 @@
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam quae magni
                     illum nostrum, quo ipsa saepe dolorum eum corrupti hic maiores accusantium,
                 </p>
-            </div>
-            <div class="social-media">
-                <ul class="nav-list">
-                    <li>
-                        <a href="#" class="icon-link">
-                            <i class="fa fa-facebook-square"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="icon-link">
-                            <i class="fa fa-linkedin-square"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="icon-link">
-                            <i class="fa fa-github-square"></i>
-                        </a>
-                    </li>
-                </ul>
+                <div class="social-media">
+                    <ul class="nav-list">
+                        <li>
+                            <a href="#" class="icon-link">
+                                <i class="fa fa-facebook-square"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="icon-link">
+                                <i class="fa fa-linkedin-square"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="icon-link">
+                                <i class="fa fa-github-square"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </section>
@@ -112,8 +112,6 @@
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam quae magni
                     </p>
                 </div>
-            </div>
-            <div class="my-skills">
                 <div class="skill">
                     <div class="icon-container">
                         <i class="fas fa-laptop-code"></i>
@@ -124,8 +122,6 @@
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam quae magni
                     </p>
                 </div>
-            </div>
-            <div class="my-skills">
                 <div class="skill">
                     <div class="icon-container">
                         <i class="fas fa-brain"></i>
@@ -140,14 +136,14 @@
         </div>
     </section>
 
-    <section class="Portfolio" id="Portfolio">
+    <section class="portfolio" id="portfolio">
         <div class="container">
             <div class="section-heading">
                 <h1>Portfolio</h1>
                 <h6>Some Of My Work</h6>
             </div>
             <div class="portfolio-item">
-                <div class="portfolio-img">
+                <div class="portfolio-img has-marging-right">
                     <img src="images/portitem1.jpeg" alt="">
                 </div>
                 <div class="portfolio-description">
@@ -157,25 +153,25 @@
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam quae magni
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam quae magni
                     </p>
-                    <a href="#">View Details</a>
+                    <a class="cta" href="#">View Details</a>
                 </div>
             </div>
             <div class="portfolio-item">
-                <div class="portfolio-description">
+                <div class="portfolio-description has-marging-right">
                     <h6>Desktop Dev</h6>
                     <h1>Libex</h1>
                     <p>
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam quae magni
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam quae magni
                     </p>
-                    <a href="#">View Details</a>
+                    <a class="cta" href="#">View Details</a>
                 </div>
                 <div class="portfolio-img">
                     <img src="images/portitem2.jpeg" alt="">
                 </div>
             </div>
             <div class="portfolio-item">
-                <div class="portfolio-img">
+                <div class="portfolio-img has-marging-right">
                     <img src="images/portitem3.jpeg" alt="">
                 </div>
                 <div class="portfolio-description">
@@ -185,7 +181,7 @@
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam quae magni
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam quae magni
                     </p>
-                    <a href="#">View Details</a>
+                    <a class="cta" href="#">View Details</a>
                 </div>
             </div>
         </div>
@@ -224,24 +220,28 @@
                 <h1>Contact me</h1>
                 <h6>if there is any question, demand or offer write me</h6>
             </div>
-            <form action="">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" placeholder="Enter Your Name" required="required">
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" placeholder="Enter Your E-mail" required="required">
-                <label for="service">Services:</label>
-                <select name="services" id="service">
-
-                </select>
-
-            </form>
+            <div class="cont-container">
+                <div class="contact-img">
+                    <img src="images/sitebg2.jpg" alt="" class="write-img">
+                </div>
+                <div class="text-contact">
+                    <p class="contact-p">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam quae magni
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam quae magni
+                    </p>
+                    <ul class="mail-list">
+                        <li>las9ayne_215@hotmail.com</li>
+                        <li>Assaad.o.zeghina@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </section>
     <footer class="copyright">
         <div class="up" id="up">
             <i class="fas fa-chevron-up"></i>
-            <p>&copy; 2019 Assaad O. Zeghina</p>
         </div>
+        <p>&copy; 2019 Assaad O. Zeghina</p>
     </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>

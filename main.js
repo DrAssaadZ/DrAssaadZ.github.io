@@ -3,4 +3,7 @@ $(document).ready(function () {
             $(this).toggleClass('open');
             $('.top-nav').toggleClass('open');
         });
+        $('.nav-link').on('click', function () {
+            $('.top-nav').toggleClass('open');
+        });
     });
