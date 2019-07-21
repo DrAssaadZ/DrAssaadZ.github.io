@@ -445,7 +445,7 @@ li{
 }
 
 .contact-p{
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
 }
 
 .mail-list{
@@ -453,6 +453,15 @@ li{
     font-size: 1.5rem;
     text-justify: auto;
     margin-left: 2rem;
+}
+
+.contact-p:last-of-type{
+    margin-top: 4rem;
+}
+
+.contact-link{
+    color: #fd57df;
+    text-decoration: underline;
 }
 
 .copyright{
