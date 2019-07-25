@@ -4,12 +4,14 @@ $(document).ready(function () {
         $('.menu-toggler').on('click', function () {
             $(this).toggleClass('open');
             $('.top-nav').toggleClass('open');
+            $('html').toggleClass('open');
         });
 
         //close the menu and return toggle menu to normal when a menu link is clicked
         $('.nav-link').on('click', function () {
             $('.top-nav').removeClass('open');
             $('.menu-toggler').removeClass('open');
+            $('html').removeClass('open');
         });
 
         //give scroll effect when clicking on a menu link

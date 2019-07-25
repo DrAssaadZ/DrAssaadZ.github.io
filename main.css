@@ -8,6 +8,12 @@ html{
     font-size: 10px;
     font-family: "Roboto", sans-serif;
     color: #eee;
+    /*to stop the horizontal scroll*/
+    overflow-x: hidden;
+}
+
+html.open{
+    overflow: hidden;
 }
 
 body{
